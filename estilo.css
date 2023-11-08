@@ -1,0 +1,52 @@
+/* Tu archivo CSS con el estilo inicial de #rectangulo-inferior */
+body {
+    background-color: #2d2e3b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#rectangulo-superior {
+    background-color: #47485b;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    position: relative;
+    background-image: url('logo.png'); /* Ruta a tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el área */
+    background-position: center; /* Centra la imagen horizontal y verticalmente */
+}
+
+
+#rectangulo-inferior {
+    background-color: #47485b; /* Nuevo color para #rectangulo-inferior */
+    border-radius: 10px;
+    width: 50%;
+    max-width: 400px;
+    height: 200px;
+    margin: 10px auto; /* Agrega margen entre los rectángulos y los centra horizontalmente */
+    position: relative;
+    display: flex; /* Utiliza un contenedor flexible para centrar el contenido verticalmente */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+#contenido-inferior {
+    padding: 20px;
+    color: #fff;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+
+#contenido-superior {
+    padding: 20px;
+    color: #fff;
+}
+
+ 
